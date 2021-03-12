@@ -7,4 +7,50 @@ and open the template in the editor.
     Created on : Mar 10, 2021, 11:30:24 AM
     Author     : Jamit
 */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman';
+}
+.header{
+    width: 100%;
+    min-height: 100vh;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.menu{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    font-size: 28px;
+}
 
+.logo{
+    width: 50px;
+    cursor: pointer;
+    margin: 30px 0; 
+}
+.menu-icon1{
+    width: 25px;
+    cursor: pointer;
+    display: none;
+}
+nav{
+   flex: 1;
+   text-align: right; 
+}
+nav ul li{
+    list-style:none;
+    display: inline-block;
+    margin-right: 30px;
+}
+nav ul li a{
+    text-decoration:none;
+    color: #000;
+    font-size: 24
+}
+nav ul li a:hover{
+    color: red;
+}
