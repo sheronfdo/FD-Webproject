@@ -10,7 +10,7 @@ and open the template in the editor.
 * {
     margin: 0;
     padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Merriweather, serif;
 }
 
 .main-body {
@@ -48,7 +48,7 @@ and open the template in the editor.
 
 .first-banner{
     width: 100%;
-    height: 1000px;
+    height: 870px;
 }
 
 .first-banner .dark-purple-box {
@@ -107,4 +107,28 @@ and open the template in the editor.
     font-style: italic;
     font-size: 22px;
     color: black;
+}
+
+.second-banner{
+    width: 100%;
+    height: 450px;
+    background-color: white;
+}
+
+.second-banner .second-banner-1text{
+    max-width: 45%;
+    max-height: 40%;
+    font-size: 70px;
+    font-weight: 1000;
+    color: purple;
+    margin: 5% 0% 5% 10%
+}
+
+.second-banner .second-banner-2text{
+    max-width: 40%;
+    max-height: 40%;
+    font-size: 25px;
+    font-weight: 600;
+    color: activecaption;
+    margin: 7% 10% 5% 50%
 }
