@@ -14,7 +14,8 @@ and open the template in the editor.
 }
 
 .main-body {
-    width: 1000px;
+   margin: auto;
+   width: 100%;
 }
 
 .header {
@@ -77,6 +78,7 @@ and open the template in the editor.
     position: absolute;
     z-index: 3;
     margin-left: 52%;
+    margin-right: 30%;
     margin-top: 15%;
     color: blueviolet;
 }
