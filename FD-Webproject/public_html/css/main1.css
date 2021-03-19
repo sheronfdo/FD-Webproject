@@ -15,7 +15,7 @@ and open the template in the editor.
 
 .main-body {
    margin: auto;
-   width: 1400px;
+   width: 1366px;
 }
 
 .header {
@@ -199,7 +199,7 @@ and open the template in the editor.
 
 
 .third-banner .right-side .caption{
-    max-width: 100%;
+    max-width: 80%;
     height: 30%;
     font-size: 45px;
     font-weight: 1000;
@@ -253,3 +253,70 @@ and open the template in the editor.
     max-width: 70%;
     line-height: 32px;
 } 
+
+.fourth-banner {
+    width: 100%;
+    height: 1000px;
+}
+
+.fourth-banner .purple-box{
+    width: 250px;
+    height: 250px;
+    background-color: purple;
+    -webkit-clip-path: circle(50% at 50% 50%);
+    position: absolute;
+    z-index: 1;
+    margin: 10% 40% 20% 10%;
+}
+
+.fourth-banner .fourth-banner-img{
+    width: 600px;
+    height: 600px;
+    -webkit-clip-path: circle(50% at 50% 50%);
+    position: absolute;
+    z-index: 2;
+    margin: 20% 40% 25% 10%;
+}
+
+.fourth-banner .fourb-title-and-text{
+    width: 45%;
+    height: 580px;
+    background-color: lightcoral;
+    opacity: 70%;
+    position: absolute;
+    z-index: 1;
+    margin: 30% 20% 10% 47%;
+    color: white;
+    font-size: 22px;
+}
+
+.fourth-banner .fourb-title-and-text .fourb-title{
+    margin: 15% 0% 5% 20%;
+    font-size: 40px;
+}
+
+
+.fourth-banner .fourb-title-and-text .fourb-text{
+    margin: 5% 0% 5% 20%;
+    font-size: 25px;
+    max-width: 60%;
+}
+
+
+.fourth-banner .fourb-title-and-text .img-loc-tag{
+    margin: 5% 0% 5% 20%;
+    font-size: 25px;
+    color: white;
+}
+
+.fourth-banner .fourb-title-and-text .img-loc-tag a{
+    color: white;
+}
+
+.fourth-banner .fourb-title-and-text .fourb-link{
+    background-color: white;
+    padding: 20px;
+    color: lightcoral;
+    text-decoration: none;
+    margin: 5% 0% 5% 20%;
+}
